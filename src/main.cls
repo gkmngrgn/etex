@@ -14,7 +14,7 @@
 \usepackage{outlines}
 \usepackage{xltabular}
 
-\setmainfont{Arial}
+\setmainfont{OpenDyslexic}
 
 \setlist[itemize]{leftmargin=*}
 
