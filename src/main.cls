@@ -1,7 +1,5 @@
-\LoadClass[12pt]{extreport}
+\LoadClass[12pt]{article}
 
-\usepackage{array}
-\usepackage[english]{babel}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
 \usepackage{fontspec}
@@ -9,9 +7,7 @@
 \usepackage{graphicx}
 \usepackage{hologo}
 \usepackage[hidelinks]{hyperref}
-\usepackage{ifthen}
 \usepackage{parskip}
-\usepackage{outlines}
 \usepackage{xltabular}
 
 \setmainfont{OpenDyslexic}
@@ -40,7 +36,7 @@
 
 \newenvironment{gcertification}[4] {
     {\textbf{#1}\hfill\small{#2}\newline}
-    {\footnotesize{#3}\hfill\small{#4}}
+    {\footnotesize{#3}\hfill\footnotesize{#4}}
 }{}
 
 \newenvironment{geducation}[4] {
@@ -50,8 +46,8 @@
 }{}
 
 \newenvironment{gexperience}[5] {
-    {\textbf{#1}\hfill\textbf{#2}\newline}
-    {\vspace{1mm}\small{#3}\hfill\small{#4}\newline}
+    {\textbf{#1}\hfill\textbf{#2}}\newline
+    {\vspace{1mm}\small{#3}\hfill\small{#4}}\newline
     {\footnotesize{#5}}
 }{}
 

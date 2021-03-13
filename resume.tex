@@ -1,15 +1,127 @@
 \documentclass{src/main}
 
 \begin{document}
+    \input{src/header}
 
-\input{src/header}
+    \begin{center}
+        \begin{tabularx}{\linewidth}{@{}*{2}{X}@{}} {
+            \gsection{ABOUT ME} {
+                \gparagraph {
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum pulvinar etiam non quam lacus. Orci a scelerisque purus semper eget duis at tellus at. Gravida neque convallis a cras semper auctor neque. Et malesuada fames ac turpis egestas sed tempus urna et.
+                }
+            }
+            \gsection{EXPERIENCE} {
+                \begin{itemize}
+                    \item \gexperience
+                        {New Comp.}
+                        {Oct 2018 - Present}
+                        {Software Engineer}
+                        {Zürich, Switzerland}
+                        {Morbi tincidunt augue interdum velit euismod in. Bibendum at varius vel pharetra. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc.}
+                    \item \gexperience
+                        {Old Comp.}
+                        {Jul 2015 - 2018}
+                        {Software Engineer}
+                        {Zürich, Switzerland}
+                        {Gravida dictum fusce ut placerat orci nulla pellentesque dignissim. In ante metus dictum at tempor commodo ullamcorper a lacus.}
+                    \item \gexperience
+                        {First Comp.}
+                        {Oct 2011 - Jun 2015}
+                        {Software Developer}
+                        {Istanbul, Turkey}
+                        {Tortor pretium viverra suspendisse potenti nullam. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Pharetra et ultrices neque ornare aenean. Volutpat commodo sed egestas egestas.}
+                \end{itemize}
+            }
+            \gsection{HOBBIES \& INTERESTS} {
+                \begin{tabularx}{\linewidth}{@{}*{4}{>{\centering\arraybackslash}X}@{}} {
+                    \centering
+                    \includegraphics[width=1.5cm]{src/avatar.png}
+                } & {
+                    \centering
+                    \includegraphics[width=1.5cm]{src/avatar.png}
+                } & {
+                    \centering
+                    \includegraphics[width=1.5cm]{src/avatar.png}
+                } & {
+                    \centering
+                    \includegraphics[width=1.5cm]{src/avatar.png}
+                } \\ {
+                    \footnotesize A11y
+                } & {
+                    \footnotesize Game
+                } & {
+                    \footnotesize Art
+                } & {
+                    \footnotesize Guitar
+                }
+                \end{tabularx}
+            }
+        } & {
+            \gsection{SKILLS} {
+                \begin{itemize}
+                    \item \gitem
+                        {Languages}
+                        {C++, Python, Ruby, JavaScript}
+                    \item \gitem
+                        {Technologies}
+                        {Qt5, Django, Express, React, AWS}
+                \end{itemize}
+            }
+            \gsection{PROJECTS} {
+                \begin{itemize}
+                    \item \gproject
+                        {Foo}
+                        {https://github.com/jsmith/foo}
+                        {Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida.}
+                        {c++, qt5}
+                    \item \gproject
+                        {Bar}
+                        {https://github.com/jsmith/bar}
+                        {Tristique senectus et netus et malesuada fames.}
+                        {python, django}
+                    \item \gproject
+                        {Baz}
+                        {https://github.com/jsmith/baz}
+                        {Sollicitudin aliquam ultrices sagittis orci.}
+                        {ruby, javascript}
+                \end{itemize}
+            }
+            \gsection{EDUCATION} {
+                \begin{itemize}
+                    \item \geducation
+                        {Computer Science}
+                        {University Name}
+                        {Master's degree}
+                        {2012 - 2014}
+                    \item \geducation
+                        {Computer Engineering}
+                        {Another University}
+                        {Diploma}
+                        {2008 - 2012}
+                \end{itemize}
+            }
+            \gsection{CERTIFICATIONS} {
+                \begin{itemize}
+                    \item \gcertification
+                        {Android Course}
+                        {Coursera}
+                        {Dec 2019}
+                        {CERTIFICATION\_ID\_1}
+                    \item \gcertification
+                        {C++ Course}
+                        {Udacity}
+                        {Dec 2018}
+                        {CERTIFICATION\_ID\_2}
+                    \item \gcertification
+                        {Data Science with Python}
+                        {DataCamp}
+                        {May 2017}
+                        {CERTIFICATION\_ID\_3}
+                \end{itemize}
+            }
+        }
+        \end{tabularx}
+    \end{center}
 
-\section{hello}
-
-\gparagraph {
-    Test message.
-}
-
-\input{src/footer}
-
+    \input{src/footer}
 \end{document}
