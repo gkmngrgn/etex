@@ -5,4 +5,4 @@ If you're too lazy to install all LaTeX dependencies to your PC (like me), just 
 
 Remember that the compiler should be "XeLaTeX". You can preview all the settings [here](https://www.overleaf.com/read/qxbxfdspntvw).
 
-The default font is OpenDyslexic, you can change it from [main.cls](https://github.com/gkmngrgn/etex/blob/main/src/main.cls#L13).
+You can set a default font in [main.cls](https://github.com/gkmngrgn/etex/blob/main/src/main.cls#L13).
