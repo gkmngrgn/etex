@@ -10,7 +10,7 @@
 \usepackage{parskip}
 \usepackage{xltabular}
 
-\setmainfont{OpenDyslexic}
+%% \setmainfont{OpenDyslexic}
 
 \setlist[itemize]{leftmargin=*}
 
